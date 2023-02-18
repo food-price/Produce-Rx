@@ -27,7 +27,7 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 * 1 Defining and Importing Necessary Impute parameters, creating n.sim random draws
 * 1.0 Study specific settings: produce RX project 
 
-(Set Policy-effect size, costs, and discounting rate ) 
+(Set Policy-effect size, costs, and discounting rate, and other parameters that is specific to your study ) 
 * 1.1 Read in master input file with invidiual-level data and cleaning
 
 (We used data from NHANES participants in 2013-2018 cycles aged 40-80 years with diabetes and food insecurity, n=757, representing 5.7 million US adults.)
