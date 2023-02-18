@@ -25,6 +25,9 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 
 (Set n.sim, number of simulation for parameter sampling, n.cycle for number of years of follow-up, and n.loop for number of replicate for each invidiual) 
 * 1 Defining and Importing Necessary Impute parameters, creating n.sim random draws
+
+(All inputs in .csv format are located in the folder 01_Input)
+
 * 1.0 Study specific settings: produce RX project 
 
 (Set Policy-effect size, costs, and discounting rate, and other parameters that is specific to your study ) 
