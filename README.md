@@ -1,21 +1,22 @@
 # Produce-Rx
 This is an example of using the Tufts Diabetes, Obesity, and Cardioascular disease Model (DOCM) to evaluate the health and economic impact and cost-effectiveness of a policy intervention (national produce prescription). The DOCM model forecasts US trends in the prevalence of obesity, diabetes, and cardiovascular disease, as well as all-cause mortality, quality-adjusted life years, and health care costs. Results are stratified by race/ethnicity in order to highlight health disparities.
 
-Getting Started
-Required R Packages
+# Getting Started
+# Required R Packages
 The following packages are required to run the code. You can install packages in R by running install.packages('package_name').
-survey
-svMisc
-psych
-gdata
-dplyr
-plyr
-data.table
-foreach
-doParallel
-abind
+* survey
+* svMisc
+* psych
+* gdata
+* dplyr
+* plyr
+* data.table
+* foreach
+* doParallel
+* abind
 
-Model Settings
+
+# Model Settings
 The 01_TDCM_health_food_rxnew.R script is the main script for the model. 
 The key structure for the model is listed below 
 0.Preparation 
