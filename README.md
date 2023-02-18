@@ -1,4 +1,4 @@
-# Produce-Rx
+# Evaluating the health and economic impact, and cost-effectiveness of the national Produce-Rx
 This is an example of using the Tufts Diabetes, Obesity, and Cardioascular disease Model (DOCM) to evaluate the health and economic impact and cost-effectiveness of a policy intervention (national produce prescription). The DOCM model forecasts US trends in the prevalence of obesity, diabetes, and cardiovascular disease, as well as all-cause mortality, quality-adjusted life years, and health care costs. 
 # Getting Started
 # Required R Packages
