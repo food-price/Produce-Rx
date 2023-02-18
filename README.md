@@ -22,11 +22,14 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 * 0.3 Creating Working Directory
 * 0.4 Source other key scripts
 * 0.5 Model settings (set manually or read from command line when submitted through cluster)
+
 (Set n.sim, number of simulation for parameter sampling, n.cycle for number of years of follow-up, and n.loop for number of replicate for each invidiual) 
 * 1 Defining and Importing Necessary Impute parameters, creating n.sim random draws
 * 1.0 Study specific settings: produce RX project 
+
 (Set Policy-effect size, costs, and discounting rate ) 
 * 1.1 Read in master input file with invidiual-level data and cleaning
+
 (We used data from NHANES participants in 2013-2018 cycles aged 40-80 years with diabetes and food insecurity, n=757, representing 5.7 million US adults.)
 * 1.2 Diet-disease etiologic effects data inputs : Age-specific relative risk estimates between dietary intake and disease outcomes 
 * 1.3 Health-state/Event specific mortality data 
@@ -40,6 +43,7 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 * 3 Run the simulation model 
 * 3.1 Run n.sim times of the simulation function in parallel processes, and then combine the results in sim_out, Run the function for each arm separately.
 * 4 Summarize and save output                                          
+
 Main outputs include the mean and uncertainties in policy and non-policy arm, and incremental changes on health and economic incidence CVD events (first CVD events and recurrent CVD events are reported seperately), life-years, quality-adjusted life-years, discounted healthcare costs, productivity costs, policy costs (policy specific), and the relavent uncertainties. We also generated results stratified by age, sex, race/ethnicity, education, family income, and insurance status in order to highlight the health disparities.
 
 Contact: lulu_stat@hotmail.com
