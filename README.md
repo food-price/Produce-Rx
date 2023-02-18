@@ -25,12 +25,9 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 (Set n.sim for the number of simulation for parameter sampling, n.cycle for number of years of follow-up, and n.loop for number of replicate for each invidiual,these can be set manually or read from command line when submitted through cluster)
 * 1 Defining and importing necessary imput parameters, creating n.sim random draws
 (All inputs in .csv format are located in the folder 01_Input)
-
 * 1.0 Study specific settings: produce RX project 
-
 (Set Policy-effect size, costs, and discounting rate, and other parameters that is specific to your study ) 
 * 1.1 Read in master input file with invidiual-level data and cleaning
-
 (We used data from NHANES participants in 2013-2018 cycles aged 40-80 years with diabetes and food insecurity, n=757, representing 5.7 million US adults.)
 * 1.2 Diet-disease etiologic effects data inputs : Age-specific relative risk estimates between dietary intake and disease outcomes 
 * 1.3 Health-state/Event specific mortality data 
