@@ -21,9 +21,9 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 * 0.2 Create Functions
 * 0.3 Creating Working Directory
 * 0.4 Source other key scripts
-* 0.5 Model settings (set manually or read from command line when submitted through cluster)
+* 0.5 Model settings 
 
-(Set n.sim, number of simulation for parameter sampling, n.cycle for number of years of follow-up, and n.loop for number of replicate for each invidiual) 
+(Set n.sim, number of simulation for parameter sampling, n.cycle for number of years of follow-up, and n.loop for number of replicate for each invidiual,these can be set manually or read from command line when submitted through cluster)
 * 1 Defining and Importing Necessary Impute parameters, creating n.sim random draws
 
 (All inputs in .csv format are located in the folder 01_Input)
