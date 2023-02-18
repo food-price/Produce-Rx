@@ -18,9 +18,7 @@ abind
 Model Settings
 The 01_TDCM_health_food_rxnew.R script is the main script for the model. 
 The key structure for the model is listed below 
-#################
-0.Preparation #
-#################
+0.Preparation 
 0.1 Install/Read R Packages
 0.2 Create Functions
 0.2-1 To estimate gamma/beta parameters based on Mean and SD
@@ -28,29 +26,22 @@ The key structure for the model is listed below
 0.3 Creating Working Directory
 0.4 Source other key scripts
 0.5 Model settings (set manually or read from command line when submitted through cluster)
-####################################################################################
 1 Defining and Importing Necessary Impute parameters, creating n.sim random draws
-####################################################################################
 ##$$Policy specific settings: produce RX project 
 1.0 Policy-effect size, costs, and discounting rate
 1.1 Read in master input file with invidiual-level data and cleaning
 The model was populated with NHANES participants in 2013-2018 cycles aged 40-80 years with diabetes and food insecurity, n=757, representing 5.7 million US adults
 The incremental changes in health and economic incidence CVD events (first CVD events and recurrent CVD events are reported seperately), life-years, quality-adjusted life-years, healthcare costs, productivity costs, policy costs (policy specific)
-1.2 Diet-disease etiologic effects data inputs : Age-specific relative risk
-estimates between dietary intake and disease outcomes 1.3 Health-state/Event
-specific mortality data 1.4 Secular trends in major risk factors: estimated as
-average annual percent change over 1999-2016 1.5 Gender- and race-specific
-proportiona of CHD cases Among ASCVD cases (CHD + Stroke) 1.6 Health Care
-Expenditure Model 1.7 HrQOL Prediction 1.8 additional health care cost
-parameters 1.9 Productivity costs associated with CHD, stroke
-#################################################################################################################################
+1.2 Diet-disease etiologic effects data inputs : Age-specific relative risk estimates between dietary intake and disease outcomes 
+1.3 Health-state/Event specific mortality data 
+1.4 Secular trends in major risk factors: estimated as average annual percent change over 1999-2016 
+1.5 Gender- and race-specific proportiona of CHD cases Among ASCVD cases (CHD + Stroke) 
+1.6 Health Care Expenditure Model 
+1.7 HrQOL Prediction 
+1.8 additional health care cost parameters 
+1.9 Productivity costs associated with CHD, stroke
 2 Estimating disease-specific risk, health-related quality of life (HrQOL), and healthcare expenditures (HCE) at the baseline #
-#################################################################################################################################
-#########################################################################
-3 Main Model - PLEASE DO NOT MODIFY UNLESS YOU KNOW WHAT YOU'RE DOING #
-#########################################################################
+3 Main Model 
 3.1 source the scrit that defined the simulation function for running n.sim simulations
 3.2 run n.sim times of the simulation function in parallel processes, and then combine the results in sim_out, Run the function for each arm separately
-#########################################################################
-4 Summarize and save output                                           #
-#########################################################################
+4 Summarize and save output                                          
