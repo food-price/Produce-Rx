@@ -35,6 +35,6 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 * 1.9 Productivity costs associated with CHD, stroke
 * 2 Estimating disease-specific risk, health-related quality of life (HrQOL), and healthcare expenditures (HCE) at the baseline #
 * 3 Run the simulation model 
-* 3.1 run n.sim times of the simulation function in parallel processes, and then combine the results in sim_out, Run the function for each arm separately.
+* 3.1 Run n.sim times of the simulation function in parallel processes, and then combine the results in sim_out, Run the function for each arm separately.
 * 4 Summarize and save output                                          
-Main outputs include the mean and uncertainties in policy and non-policy arm incremental changes in health and economic incidence CVD events (first CVD events and recurrent CVD events are reported seperately), life-years, quality-adjusted life-years, discounted healthcare costs, productivity costs, policy costs (policy specific), and the relavent uncertainties. We also generated results stratified by age, sex, race/ethnicity, education, family income, and insurance status in order to highlight the health disparities.
+Main outputs include the mean and uncertainties in policy and non-policy arm, and incremental changes on health and economic incidence CVD events (first CVD events and recurrent CVD events are reported seperately), life-years, quality-adjusted life-years, discounted healthcare costs, productivity costs, policy costs (policy specific), and the relavent uncertainties. We also generated results stratified by age, sex, race/ethnicity, education, family income, and insurance status in order to highlight the health disparities.
