@@ -23,7 +23,7 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 * 0.3 Creating Working Directory
 * 0.4 Source other key scripts
 
-These scripts contains functions for diabetes risk prediction model, CVD risk prediction model, subsequent CVD risk prediction model, HrQOL estimation model, and Healthcare cost prediciton model.
+These scripts contains functions for diabetes risk prediction model, CVD risk prediction model, subsequent CVD risk prediction model, HrQOL estimation model, and healthcare cost prediciton model.
 
 * 0.5 Model settings 
 
