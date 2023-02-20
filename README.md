@@ -29,13 +29,23 @@ The 01_DOCM_producerx.R script is the main script for the model. The Key model p
 (Set Policy-effect size, costs, and discounting rate, and other parameters that is specific to your study ) 
 * 1.1 Read in master input file with invidiual-level data and cleaning
 (We used data from NHANES participants in 2013-2018 cycles aged 40-80 years with diabetes and food insecurity, n=757, representing 5.7 million US adults.)
-* 1.2 Diet-disease etiologic effects data inputs : Age-specific relative risk estimates between dietary intake and disease outcomes 
-* 1.3 Health-state/Event specific mortality data 
+* 1.2 Import diet-disease etiologic effects data inputs: Age-specific relative risk estimates between dietary intake and disease outcomes
+ Source: Micha et.al 2017 (https://jamanetwork.com/journals/jama/article-abstract/2608221); 
+ Miller et.al 2022 (https://pubmed.ncbi.nlm.nih.gov/35113165/); 
+* 1.3 Import health-state/Event specific mortality data 
+Source: CDC wonder
 * 1.4 Secular trends in major risk factors: estimated as average annual percent change over 1999-2016 
+Source: NHANES 1999-2016
 * 1.5 Gender- and race-specific proportiona of CHD cases Among ASCVD cases (CHD + Stroke) 
-* 1.6 Health Care Expenditure Model 
-* 1.7 HrQOL Prediction 
+Source: 
+* 1.6  Parameters for Health Care Expenditure Model
+Parameters of a healthcare cost prediction model which estimate overall health care expenditures for each individual based on their unique characteristics, includinge age, sex, race/ethnicity, BMI, and clinical consitions including diabetes, hypertension, and hisory of CVD. The parameters represent the estimated average marginal effects to predict the incremental change in health care expenditures for each covariate. 
+Source: The model was developed de nova based on 2014 to 2016 Medical Panel Expenditure Survey (MEPS) data (n=73,174). 
+* 1.7 HrQOL Prediction Parameters. 
+We used a previously developed HRQOL prediction model for the US nationally representative sample based on demographic, socioeconomic, and chronic disease factors. Health-related quality of life (HRQOL) was measured based on an established patient-based estimates of how changes in health status alter the quality of life, from a scale of 0.00 (death) to 1.00 (perfect health).
+Source: Lubetkin EI, Jia H, Franks P, Gold MR. Relationship among sociodemographic factors, clinical conditions, and health-related quality of life: examining the EQ-5D in the U.S. general population. Qual Life Res. 2005;14(10):2187-96.)
 * 1.8 additional health care cost parameters 
+
 * 1.9 Productivity costs associated with CHD, stroke
 * 2 Estimating disease-specific risk, health-related quality of life (HrQOL), and healthcare expenditures (HCE) at the baseline #
 * 3 Run the simulation model 
