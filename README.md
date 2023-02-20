@@ -39,9 +39,11 @@ Source: NHANES 1999-2016
 * 1.5 Gender- and race-specific proportiona of CHD cases Among ASCVD cases (CHD + Stroke) 
 Source: 
 * 1.6  Parameters for Health Care Expenditure Model
+
 Parameters of a healthcare cost prediction model which estimate overall health care expenditures for each individual based on their unique characteristics, includinge age, sex, race/ethnicity, BMI, and clinical consitions including diabetes, hypertension, and hisory of CVD. The parameters represent the estimated average marginal effects to predict the incremental change in health care expenditures for each covariate. 
 Source: The model was developed de nova based on 2014 to 2016 Medical Panel Expenditure Survey (MEPS) data (n=73,174). 
 * 1.7 HrQOL Prediction Parameters. 
+
 We used a previously developed HRQOL prediction model for the US nationally representative sample based on demographic, socioeconomic, and chronic disease factors. Health-related quality of life (HRQOL) was measured based on an established patient-based estimates of how changes in health status alter the quality of life, from a scale of 0.00 (death) to 1.00 (perfect health).
 Source: Lubetkin EI, Jia H, Franks P, Gold MR. Relationship among sociodemographic factors, clinical conditions, and health-related quality of life: examining the EQ-5D in the U.S. general population. Qual Life Res. 2005;14(10):2187-96.)
 * 1.8 additional health care cost parameters 
