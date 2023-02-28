@@ -1,12 +1,19 @@
-#Tufts Diabetes-Obesity, CVD Microsimulation (TDOCM) Model 
+#Diabetes-Obesity, CVD Microsimulation (DOC-M) Model 
 #The FOOD-PRICE project (https://food-price.org/)
 #Healthy Food Prescription Analysis
-#Primary Author: David D. Kim, Tufts Medical Center
-#Contact: david.kim@bsd.uchicago.edu
-#Secondary Author:  Lu Wang Brianna Lauren
-#Contact: lulu_stat@hotmail.com
-#Model outcomes: 
-#Incidence CVD events: first CVD events and recurrent CVD events, life-years, quality-adjusted life-years, healthcare costs, policy costs (policy specific)
+#Primary Author: David D. Kim, University of Chicago (ddk@uchicago.edu)
+#Secondary Authors:  Lu Wang (lulu_stat@hotmail.com) and Brianna Lauren 
+#Model Summary: Programmed in R-4.1.0, the DOC-M model is a probabilistic and dynamic microsimulation model that projects obesity, diabetes, CVD, 
+#and their associated complications for guiding population health and policy decisions. Using US population-based transition probabilities, the model
+#tracks a person's annual likelihood of experiencing health events (e.g., developing diabetes and CVD) and death based on individual factors: 
+#age, sex, race, blood pressure, total cholesterol, smoking status, and others. Each individual in the DOC-M model can transit through multiple health states
+#each year: no CVD or diabetes, diabetes without CVD, CVD without diabetes, both CVD and diabetes, and death, plus four CVD-related events 
+#(first or recurrent stroke or coronary heart disease, with an option for revascularization. The model also captures the incidence and prevalence of overweight 
+#and obesity based on each individual's BMI. Our modeled population is US adults aged 40-79, corresponding to the sample populations from which diabetes and 
+#CVD risk predictions were derived, and our model provides US population estimates by aggregating individual trajectories with appropriate survey weights. 
+#Analyses were conducted using probability distributions for all input parameters to capture parameter uncertainty. 
+#The comprehensive development and validation of the DOC-M model have been described elsewhere. (Kim et al. Med. Decis. Mak. 2023) 
+
 
 #################
 # 0.Preparation #
